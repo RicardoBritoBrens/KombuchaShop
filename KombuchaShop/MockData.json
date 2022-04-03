@@ -1,0 +1,16 @@
+{
+  "kombuchas": [
+    {
+      "Description": "Clarke loves Health-Ade kombucha, which comes in sixteen different organic flavors. The Ginger-Lemon flavor, which is made with a mix of black and green teas, plus fresh ginger and lemon juice, is a particularly popular pick.",
+      "Image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1574867700-41W5-n8-z2L.jpg?crop=0.667xw:1xh;center,top&resize=768:*",
+      "Name": "Health-Ade Organic Kombucha",
+      "Structure": "Per 8-ounce serving: 35 calories, 0 g fat, 10 mg sodium, 7 g carbs, 5 g sugar, 0 g protein"
+    },
+    {
+      "Name": "Brew Dr. Organic Kombucha",
+      "Image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1574867838-41RgWK7Sv3L.jpg?crop=1xw:1xh;center,top&resize=768:*",
+      "Description": "Brew Dr. is another of Clarke’s favorite kombucha brands. Try the Uplift Caffeinated flavor, which is made with a blend of yerba mate, green tea, and guayusa. With 130 milligrams of caffeine per bottle, it makes for the perfect a.m. pick-me-up.",
+      "Structure": "Per 7-ounce serving: 35 calories, 0 g fat, 0 mg sodium, 9 g carbs, 8 g sugars, 0 g protein"
+    }
+  ]
+}
