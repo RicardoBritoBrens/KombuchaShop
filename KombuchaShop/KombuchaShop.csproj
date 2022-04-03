@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Resources\Images\Normal\" />
+    <Folder Include="Resources\Images\Thumbnail\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Views\" />
     <Folder Include="Controllers\" />
