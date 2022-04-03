@@ -1,4 +1,5 @@
 using KombuchaShop.Models;
+using KombuchaShop.Models.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -26,6 +27,10 @@ namespace KombuchaShop
         {
             services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("KombuchaConnection")));
+
+            services.AddScoped<IKombuchaRepository, KombuchaRepository>();
+
+            services.AddControllersWithViews();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
