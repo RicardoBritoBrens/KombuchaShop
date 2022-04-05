@@ -29,6 +29,7 @@ namespace KombuchaShop
             options.UseSqlServer(Configuration.GetConnectionString("KombuchaConnection")));
 
             services.AddScoped<IKombuchaRepository, KombuchaRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
 
             services.AddControllersWithViews();
         }
@@ -41,7 +42,9 @@ namespace KombuchaShop
             }
 
             app.UseRouting();
+            app.UseStaticFiles();
 
+            app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

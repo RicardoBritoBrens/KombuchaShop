@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Kombucha
+
+<div class="col-sm-4 col-lg-4 col-md-4">
+      <div class="thumbnail">
+          <img src="@Model.ImageThumbnailUrl" alt="">
+          <div class="caption">
+              <h5 class="pull-right">@Model.Price.ToString("c")</h5>
+              <br />
+              <h5>
+                  <a asp-controller="Kombucha" asp-action="Details" asp-route-id="@Model.KombuchaId">@Model.Name</a>
+              </h5>
+              <p>@Model.Description</p>
+          </div>
+          <div class="addToCart">
+              <p class="btn btn-primary">
+                  <a class="btn btn-primary" 
+                  asp-controller="ShoppingCart"
+                  asp-action="AddToShoppingCart"
+                  asp-route-pieId="@Model.KombuchaId">Add to cart</a>
+              </p>
+          </div>
+      </div>
+</div>

@@ -41,5 +41,13 @@ namespace KombuchaShop.Controllers
                 CurrentCategory = currentCategory
             });
         }
+        public IActionResult Details(int id)
+        {
+            var kombucha = _kombuchaRepository.GetKombuchaById(id);
+            if (kombucha == null) {
+                return NotFound();
+            }
+            return View(kombucha);
+        }
     }
 }
