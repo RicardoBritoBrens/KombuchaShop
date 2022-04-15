@@ -32,6 +32,7 @@ namespace KombuchaShop.Models
                 NutritiveInformation = "Per 8-ounce serving: 35 calories, 0 g fat, 10 mg sodium, 7 g carbs, 5 g sugar, 0 g protein",
                 ImageUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Normal/image1.png",
                 ImageThumbnailUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Thumbnail/image1.png",
+                IsKombuchaOfTheWeek = true,
                 Price = 350M
             },
             new Kombucha()
@@ -43,6 +44,7 @@ namespace KombuchaShop.Models
                 NutritiveInformation = "Per 7-ounce serving: 35 calories, 0 g fat, 0 mg sodium, 9 g carbs, 8 g sugars, 0 g protein",
                 ImageUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Normal/image2.png",
                 ImageThumbnailUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Thumbnail/image2.png",
+                IsKombuchaOfTheWeek = true,
                 Price = 375M
             },
             new Kombucha()
@@ -54,6 +56,7 @@ namespace KombuchaShop.Models
                 NutritiveInformation = "Per 8-ounce serving: 30 calories, 0 g fat, 5 mg sodium, 8 g carbs, 8 g sugar, 2 g protein",
                 ImageUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Normal/image3.png",
                 ImageThumbnailUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Thumbnail/image3.png",
+                IsKombuchaOfTheWeek = true,
                 Price = 385M
             },
             new Kombucha()
@@ -65,6 +68,7 @@ namespace KombuchaShop.Models
                 NutritiveInformation = "Per 8-ounce serving: 25 calories, 0 g fat, 0 mg sodium, 6 g carbs, 4 g sugar, 0 g protein",
                 ImageUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Normal/image4.png",
                 ImageThumbnailUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Thumbnail/image4.png",
+                IsKombuchaOfTheWeek = true,
                 Price = 400M
             },
             new Kombucha()
@@ -76,6 +80,7 @@ namespace KombuchaShop.Models
                 NutritiveInformation = "Per 12-ounce serving: 45 calories, 0 g fat, 0 mg sodium, 9 g carbs, 9 g sugar, 0 g protein",
                 ImageUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Normal/image5.png",
                 ImageThumbnailUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Thumbnail/image5.png",
+                IsKombuchaOfTheWeek = true,
                 Price = 395M
             },
             new Kombucha()
@@ -87,6 +92,7 @@ namespace KombuchaShop.Models
                 NutritiveInformation = "Per 12-ounce serving: 65 calories, 0 g fat, 6 mg sodium, 11 g carbs, 10 g sugar, 0 g protein",
                 ImageUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Normal/image6.png",
                 ImageThumbnailUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Thumbnail/image6.png",
+                IsKombuchaOfTheWeek = true,
                 Price = 395M
             },
             new Kombucha()
@@ -98,6 +104,7 @@ namespace KombuchaShop.Models
                 NutritiveInformation = "Per 8-ounce serving: 22 calories, 0 g fat, 0 mg sodium, 6 g carbs, 5 g sugar, 0 g protein",
                 ImageUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Normal/image7.png",
                 ImageThumbnailUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Thumbnail/image7.png",
+                IsKombuchaOfTheWeek = false,
                 Price = 485M
             },
             new Kombucha()
@@ -109,6 +116,7 @@ namespace KombuchaShop.Models
                 NutritiveInformation = "Per 9-ounce serving: 50 calories, 0 g fat, 15 mg sodium, 9 g carbs, 7 g sugars, 3 g protein",
                 ImageUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Normal/image8.png",
                 ImageThumbnailUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Thumbnail/image8.png",
+                IsKombuchaOfTheWeek = false,
                 Price = 450M
             },
             new Kombucha()
@@ -120,6 +128,7 @@ namespace KombuchaShop.Models
                 NutritiveInformation = "Per 8-ounce serving: 20 calories, 0 g fat, 0 mg sodium, 5 g carbs, 5 g sugar, 0 g protein",
                 ImageUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Normal/image9.png",
                 ImageThumbnailUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Thumbnail/image9.png",
+                IsKombuchaOfTheWeek = false,
                 Price = 475M
             },
             new Kombucha()
@@ -131,6 +140,7 @@ namespace KombuchaShop.Models
                 NutritiveInformation = "Per 16-ounce serving: 70 calories, 0 g fat, 0 mg sodium, 18 g carbs, 5 g sugar, 0 g protein",
                 ImageUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Normal/image10.png",
                 ImageThumbnailUrl = "https://github.com/RicardoBritoBrens/KombuchaShop/blob/master/KombuchaShop/Resources/Images/Thumbnail/image10.png",
+                IsKombuchaOfTheWeek = false,
                 Price = 475M
             }
     });
