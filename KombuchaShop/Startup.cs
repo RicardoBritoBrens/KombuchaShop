@@ -7,10 +7,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace KombuchaShop
 {
@@ -32,12 +28,13 @@ namespace KombuchaShop
 
             services.AddScoped<IKombuchaRepository, KombuchaRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
-
             services.AddScoped<IOrderRepository, OrderRepository>();
+
             services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
             services.AddHttpContextAccessor();
             services.AddSession();
             services.AddControllersWithViews();
+            services.AddRazorPages();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -60,6 +57,7 @@ namespace KombuchaShop
                 endpoints.MapControllerRoute(
                    name: "default",
                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
 
