@@ -1,0 +1,89 @@
+{
+    "mainUrl": "https://vitaekombucha.com/productos/",
+    "kombuchas": [
+        {
+            "id": 1,
+            "name": "KOMBUCHA",
+            "flavors": [
+                {
+                    "name": "Aloe"
+                },
+                {
+                    "name": "Granada"
+                }
+            ],
+            "short-description": "Kombucha tradicional premium ecológica, la única elaborada con agua mineral de origen volcánico.",
+            "long-description": "Mezclando el jugo de aloe con granada y la infusión de hibiscus con nuestra kombucha, conseguimos su sabor natural. La magia de la fermentación hace el resto! Refrescante, baja en azúcar y deliciosa; sus  burbujas son naturales. Bebida viva, sin pasteurizar y con ingredientes naturales.",
+            "image": "https://vitaekombucha.com/wp-content/uploads/2021/09/kombucha-aloe-granada-new-400x600.jpg"
+        },
+        {
+            "id": 2,
+            "name": "KOMBUCHA",
+            "flavors": [
+                {
+                    "name": "Jengibre"
+                }
+            ],
+            "short-description": "Kombucha tradicional premium ecológica, la única elaborada con agua mineral de origen volcánico.",
+            "long-description": "Mezclando el jugo de aloe con granada y la infusión de hibiscus con nuestra kombucha, conseguimos su sabor natural. La magia de la fermentación hace el resto! Refrescante, baja en azúcar y deliciosa; sus  burbujas son naturales. Bebida viva, sin pasteurizar, sin aditivos y con ingredientes naturales.",
+            "image": "https://vitaekombucha.com/wp-content/uploads/2021/09/kombucha-ginger.jpg"
+        },
+        {
+            "id": 3,
+            "name": "KOMBUCHA",
+            "flavors": [
+                {
+                    "name": "Pura Vida"
+                }
+            ],
+            "short-description": "Kombucha tradicional premium ecológica, la única elaborada con agua mineral de origen volcánico.",
+            "long-description": "Mezclando el jugo de aloe con granada y la infusión de hibiscus con nuestra kombucha, conseguimos su sabor natural. La magia de la fermentación hace el resto! Refrescante, baja en azúcar y deliciosa; sus  burbujas son naturales. Bebida viva, sin pasteurizar, sin aditivos y con ingredientes naturales.",
+            "image": "https://vitaekombucha.com/wp-content/uploads/2019/08/kombucha-puravida-400x600.jpg"
+        },
+        {
+            "id": 4,
+            "name": "KOMBUCHA",
+            "flavors": [
+                {
+                    "name": "Limón"
+                },
+                {
+                    "name": "jengibre"
+                }
+            ],
+            "short-description": "Macerando los limones y el jengibre ecológicos dentro de nuestra kombucha, conseguimos su sabor natural. La magia de la fermentación hace el resto!",
+            "long-description": "Mezclando el jugo de aloe con granada y la infusión de hibiscus con nuestra kombucha, conseguimos su sabor natural. La magia de la fermentación hace el resto! Refrescante, baja en azúcar y deliciosa; sus  burbujas son naturales. Bebida viva, sin pasteurizar y con ingredientes naturales.",
+            "image": "https://vitaekombucha.com/wp-content/uploads/2019/08/kombucha-limon-gengibre-400x600.jpg"
+        },
+        {
+            "id": 5,
+            "name": "KOMBUCHA",
+            "flavors": [
+                {
+                    "name": "Mango"
+                },
+                {
+                    "name": "jengibre"
+                }
+            ],
+            "short-description": "Macerando el mango y las fresas ecológicos dentro de nuestra kombucha, conseguimos su sabor natural. La magia de la fermentación hace el resto!",
+            "long-description": "Mezclando el jugo de aloe con granada y la infusión de hibiscus con nuestra kombucha, conseguimos su sabor natural. La magia de la fermentación hace el resto! Refrescante, baja en azúcar y deliciosa; sus  burbujas son naturales. Bebida viva, sin pasteurizar y con ingredientes naturales.",
+            "image": "https://vitaekombucha.com/wp-content/uploads/2019/08/kombucha-mango-fresa-400x600.jpg"
+        },
+        {
+            "id": 6,
+            "name": "KOMBUCHA",
+            "flavors": [
+                {
+                    "name": "Manzana"
+                },
+                {
+                    "name": "canela"
+                }
+            ],
+            "short-description": "Macerando la manzana y la canela ecológicos dentro de nuestra kombucha, conseguimos su sabor natural. La magia de la fermentación hace el resto!",
+            "long-description": "Mezclando el jugo de aloe con granada y la infusión de hibiscus con nuestra kombucha, conseguimos su sabor natural. La magia de la fermentación hace el resto! Refrescante, baja en azúcar y deliciosa; sus  burbujas son naturales. Bebida viva, sin pasteurizar y con ingredientes naturales.",
+            "image": "https://vitaekombucha.com/wp-content/uploads/2021/09/kombucha-manzana-canela-400x600-1.jpg"
+        }
+    ]
+}
